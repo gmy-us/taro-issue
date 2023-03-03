@@ -7,8 +7,6 @@ import Taro, {useShareAppMessage} from "@tarojs/taro";
 useShareAppMessage(() => {
   return {
     title: '测试',
-
-    // path: `/pages/shop/detail/index?id=${shop.value.id}`
   }
 })
 
